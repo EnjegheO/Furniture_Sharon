@@ -1,0 +1,101 @@
+/* Sharon */
+
+*{
+
+  box-sizing: border-box;
+
+}
+
+.text-section{
+
+  background: #215A50; 
+
+}
+
+.bg-orange{
+
+  background: #FF8028;
+
+}
+
+.img-container{
+
+  margin: 70px 0;
+
+}
+
+.img-section img{
+
+  width: 100%;
+
+  height: 100%;
+
+  padding: 50px 0;
+
+}
+
+/*Extra small devices*/
+
+@media only screen and (max-width: 575px)
+
+{
+
+ .box{
+
+   width: 80%;
+
+   margin: auto;
+
+ }
+
+.img-section img{
+
+  width: 85%;
+
+  margin: 5px auto;
+
+  height: 75%;
+
+  padding: 5px 0;
+
+}
+
+}
+
+/*Small devices*/
+
+@media only screen and (max-width: 767px) and (min-width: 576px){
+
+ .img-section img{
+
+   height: 80%;
+
+   padding: 10px 0;
+
+   margin: 10px auto;
+
+ }
+
+}
+
+/*Medium and large devices*/
+
+@media only screen and (min-width: 768px){
+
+ .box{
+
+   width: 100%;
+
+   margin: auto;
+
+ }
+
+.img-section{
+
+  max-width: 100%;
+
+  height: auto;
+
+}
+
+}
