@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Product Details </title>
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- Bootstrap CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/0f19ba4771.js" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+<!-- Custom Css -->
+    <link rel="stylesheet" href="furniture.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <!-- Header-->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light"> 
+      <a class="navbar-brand" href="index.html"><img src="./img/logo-light.svg" alt="Logo"></a> 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"> 
+        <span class="navbar-toggler-icon"></span> 
+      </button> 
+      <div class="collapse navbar-collapse about-nav" id="navbarTogglerDemo02"> 
+        <div class="navbar-nav ml-auto"> 
+          <a class="nav-link" href="index.html">Home</a> 
+          <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a> 
+          <a class="nav-link" href="#">Products</a> 
+          <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+          <a href="cart.html" class="nav-link active"><i class="fas fa-shopping-cart"></i></a>
+          
+        </div> 
+      </div> 
+    </nav>
+    
+  </header>
+  <!-- Main Content -->
+ <div class="container-fluid cart-items">
+   <table class="cart-table"> 
+    <thead> 
+      <tr> 
+        <th>Product</th>
+        <th>Quantity</th>
+        <th class="text-right">Price</th> 
+      </tr> 
+    </thead> 
+    <tbody>
+       <tr> 
+        <td>
+         <div class="product-img">
+           <img src="./img/coral-chair.png" alt="Coral chair" class="img-fluid">
+           <div>
+             <p class="font-weight-bold">Swan Chair</p>
+             <p class="price-tag">Price: &dollar;67.99</p>
+             <a href="#" >Remove</a>
+           </div>
+         </div>
+        </td> 
+        <td><input type="number" value="1"></td> 
+        <td class="text-right"> &dollar;67.99</td>
+      </tr> 
+      <tr> 
+        <td>
+         <div class="product-img d-flex flex-wrap">
+           <img src="./img/wine-chair.png" alt="Wine chair" class="img-fluid">
+           <div>
+             <p class="font-weight-bold">Swan Chair</p>
+             <p class="price-tag">Price: &dollar;67.99</p>
+             <a href="#">Remove</a>
+           </div>
+         </div>
+        </td> 
+        <td><input type="number" value="1"></td> 
+        <td class="text-right"> &dollar;67.99</td>
+      </tr> 
+      <tr> 
+        <td>
+         <div class="product-img">
+           <img src="./img/brown-chair.png" alt="Brown chair" class="img-fluid">
+           <div>
+             <p class="font-weight-bold">Swan Chair</p>
+             <p class="price-tag">Price: &dollar;67.99</p>
+             <a href="#">Remove</a>
+           </div>
+         </div>
+        </td> 
+        <td><input type="number" value="1"></td> 
+        <td class="text-right"> &dollar;67.99</td>
+      </tr> 
+    </tbody> 
+  </table>
+ <div class="total d-flex justify-content-end">
+   <table class="cart-table">
+     <tr>
+       <td>Subtotal</td>
+       <td class="text-right">$250.00</td>
+     </tr>
+     <tr>
+       <td>Shipping and Delivery</td>
+       <td class="text-right">$50.00</td>
+     </tr>
+     <tr>
+       <td>Total</td>
+       <td class="text-right">$300.00</td>
+     </tr>
+   </table>
+ </div>
+  <button class="btn btn-block bg-orange text-white my-5 py-3 pay-button">Proceed to Payment</button>
+ </div>
+ 
+  
+  <hr style="border: 1px solid lightgray">
+  <div class="container-fluid">
+    <div class="container mt-5 pt-3 pb-4">
+      <div class="row">
+        <!-- Footer one -->
+        <div class="col-xs-6 col-md-3 footer-one footer-list">
+          <h5 class="text-uppercase font-weight-bold mb-4">about us</h5>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="" class="text-muted">Our Company</a></li>
+            <li class="list-group-item"><a href="" class="text-muted">Customer Review</a></li>
+            <li class="list-group-item"><a href="" class="text-muted">Contact Us</a></li>
+            <li class="list-group-item"><a href="" class="text-muted">Site Map</a></li>
+          </ul>
+        </div>
+        <!-- footer two -->
+        <div class="col-xs-6 col-md-3 footer-two footer-list">
+          <h5 class="text-uppercase font-weight-bold mb-4">helps</h5>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="" class="text-muted">Tracking your order</a></li>
+            <li class="list-group-item"><a href="" class="text-muted">Helps & FAQs</a></li>
+            <li class="list-group-item"><a href="" class="text-muted">Deliveries</a></li>
+            <li class="list-group-item"><a href="" class="text-muted">Return & Refunds</a></li>
+            <li class="list-group-item"><a href="" class="text-muted">Buying Guides</a></li>
+          </ul>
+        </div>
+        <!-- footer three -->
+        <div class="col-md-3 footer-three footer-list">
+          <h5 class="text-uppercase font-weight-bold mb-4">4niture services</h5>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="" class="text-muted">Used Furniture</a></li>
+            <li class="list-group-item"><a href="" class="text-muted">New Furniture</a></li>
+            <li class="list-group-item"><a href="" class="text-muted">Profile</a></li>
+          </ul>
+        </div>
+        <!-- footer four -->
+        <div class="col-md-3 footer-four">
+          <div class="col-md-12 footer-logo-holder pl-0">
+            <img src="./img/logo-light.svg">
+          </div>
+          <p class="footer-icons">
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-facebook-f fb"></i></a>
+            <a href=""><i class="fab fa-telegram-plane"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr style="border: 1px solid lightgray">
+  <div class="container-fluid mt-4">
+    <div class="col-md-12 copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 left-copyright">
+            <p>
+              <a href="" class="text-dark mr-5">Terms & Conditions</a>
+              <a href="" class="text-dark mr-5">Cookies & Private Policy</a>
+              <a href="" class="text-dark">Sitemap</a>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <p>Copyright 2020 4niture. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+    <!---------------------- CDNs----------------- -->
+    <!-- jQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ajax CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BootstrapJS CDN -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom Javascript Links -->
+    <script src="./assets/furniture.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+</body>
+
+</html>
